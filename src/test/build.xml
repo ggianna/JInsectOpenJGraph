@@ -1,0 +1,8 @@
+<project name="OpenJGraphTest" default="test">
+    <target name="test">
+        <ant dir=".." target="test" />
+    </target>
+    <target name="compile">
+        <ant dir=".." target="compile.test" />
+    </target>
+</project>
